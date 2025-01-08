@@ -3,6 +3,7 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from '@/providers/ThemeProvider';
 import Navbar from '@/components/Navbar';
+import LoadingScreen from '@/components/LoadingScreen';
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -71,6 +72,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${outfit.variable} font-outfit antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <LoadingScreen />
           <Navbar />
           {children}
         </ThemeProvider>
