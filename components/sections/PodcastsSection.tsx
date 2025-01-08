@@ -11,7 +11,7 @@ const podcasts = [
     title: "Cybersecurity in the Age of AI",
     description: "Discussing the impact of artificial intelligence on modern security practices.",
     videoUrl: "https://www.youtube.com/embed/your-video-id-1",
-    thumbnail: getImageUrl("/images/podcasts/ai-security-thumb.jpg"),
+    thumbnail: getImageUrl("/5.jpg"),
     duration: "45:20",
     host: "Dr. Sarah Chen",
     views: "12.5K",
@@ -20,7 +20,7 @@ const podcasts = [
       {
         id: 1,
         user: "Alex Thompson",
-        avatar: "/images/avatars/alex.jpg",
+        avatar: "/6.jpg",
         comment: "Great insights on AI implementation in security systems!",
         timestamp: "2 hours ago",
         likes: 24,
@@ -28,7 +28,7 @@ const podcasts = [
       {
         id: 2,
         user: "Maria Garcia",
-        avatar: "/images/avatars/maria.jpg",
+        avatar: "/7.jpg",
         comment: "The part about machine learning detection was fascinating.",
         timestamp: "5 hours ago",
         likes: 18,
