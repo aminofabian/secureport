@@ -11,7 +11,7 @@ const podcasts = [
     title: "Cybersecurity in the Age of AI",
     description: "Discussing the impact of artificial intelligence on modern security practices.",
     videoUrl: "https://www.youtube.com/embed/your-video-id-1",
-    thumbnail: getImageUrl("/5.jpg"),
+    thumbnail: "/4.png",
     duration: "45:20",
     host: "Dr. Sarah Chen",
     views: "12.5K",
